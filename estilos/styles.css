@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');/*font-family: 'Quintessential', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap'); /*font-family: 'Rubik Beastly', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&family=Rubik+Beastly&display=swap');/*font-family: 'Neonderthaw', cursive*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap'); /*font-family: 'Dancing Script', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');/*font-family: 'Supermercado One', cursive;*/
+
+
+*{padding: 0%;
+    margin: 0%;
+}
+
+.navbar-brand{
+    font-size: 300%;
+    font-family: 'Dancing Script', cursive;
+    margin-right: 35%;
+    margin-left: 3%;
+
+}
+
+.icono{
+    width: 4%;
+    height: 4%;
+}
+@media (max-width: 995px){
+    .icono{
+        display: none;
+    }
+}
+
+body{
+    background-image: url(../Fondos/fondos-negros-gratistodo.com-20.jpg);
+}
+
+.nav-item{
+    font-size: 110%;
+}
+
+h2{
+    color: rgb(236, 236, 235);
+    margin-top: 2%;
+    width: 50%;
+    margin-left: 8%;
+    font-family: 'Supermercado One', cursive;
+    margin-bottom: 2%;
+
+}
+.descripcion{
+    margin-bottom: 6%;
+}
+
+.descripcion{
+    color: rgb(197, 190, 190);
+    margin-top: 2%;
+    margin-left: 8%;
+    font-size: 120%
+}
+
+.significados{
+    color: thistle;
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 20%;
+    font-family: 'Supermercado One', cursive;
+    padding-top: 2%;
+    font-size: 200%;
+}
+
+.card{
+    margin-left: 5%;
+    margin-top:  3%;
+    margin-bottom: 10%;
+}
+
+.segundoFondo{
+    background-image: url(../Fondos/fondos-negros-gratistodo.com-19.jpg);
+
+}
+.card-text,
+.card-title{
+    color:rgb(214, 202, 205)
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    background-color: black;
+}
+.linkIg{
+    color: rgb(141, 12, 66);
+}
+
+.card{
+    background-color: black;
+}
+
+
+
+@media (max-width: 480px){
+    .card{
+        width: 80%;
+        margin-left: 16%;
+    }
+    .significados{
+        margin-left: 20%;
+        width: 100%;
+    }
+}
+
+@media (mix-width: 481px) and (max-width: 1023px ){
+    .container{
+        margin-left: 10%;
+    }
+        
+}
+
+.significados{
+    width: 62%;
+}
+
+.clientes{
+    font-size: 250%;
+}
+
+#imagenes{
+    margin-bottom: 1%;
+}
+
+.pedirTurno{
+    color: blanchedalmond;
+    margin: 1% 0 3% 9%;
+    font-size: 120%;
+}
+
+.contacto{
+    color: rgb(160, 7, 70);
+}
+
+.parrafito1{
+    color: wheat;
+    margin-left: 8%;
+    margin-bottom: 5%;
+}
+
+.modal-body,
+.modal-header{
+    background-color: black;
+}
+
+button{
+    width: 112%;
+}
+
+.fondoNosotros{
+    background-image: url(../Fondos/fondos-negros-gratistodo.com-7.jpg)
+}
+
+.quienes{
+    color: azure;
+    font-size: 250%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 5%;
+}
+
+.info{
+    color: aliceblue;
+    margin-bottom: 20%;
+}
+
+.hermanos{
+    margin-left: 5%;
+    margin-bottom: 1%;
+}
+
+h4{
+    font-size: 176%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+
+.respuestas{
+    margin-top: 1%;
+    margin-left: 5%;
+    font-size: 120%
+}
+
+.ubicacion{
+    color: white;
+    margin-top: 5%;
+    font-size: 176%;
+
+}
+
+.mapita{
+    width: 90%;
+    height: 70%;
+}
+
+
+
+
+/*TURNOS*/
+
+label{
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+}
+.form-label{
+    font-size: 120%;
+    
+
+}
+
+.p-3{
+    font-size: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.animate__fadeInLeft{
+    color: aliceblue;
+    margin-left: 5%;
+}
+
+.turnos{
+    margin-bottom: 3%;
+    margin-top: 3%;
+    font-size: 180%;
+}
+
+.form-control{
+    margin-bottom: 5%;
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgb(212, 207, 207);
+    color: black;
+}
+
+.enviar{
+    margin-bottom: 10%;
+    font-family:'Courier New', Courier, monospace;
+    width: 100%;
+}
+
+.faqs{
+    margin-bottom: 10%
+}
+video{
+    margin-left: 25%;
+    margin-bottom: 10%;
+    height: 80vh;
+
+}
+
+@media (max-width: 900px){
+    video{
+        display: none;
+       
+    }
+}
+.btn-close{
+    color: aliceblue;
+}
