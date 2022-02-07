@@ -259,12 +259,14 @@ video{
     margin-bottom: 3%;
 }
 
-
+.preguntas{
+    margin-top: 3%;
+}
 
 /************************MEDIAS*****************************************/
 
 
-@media (max-width: 900px){
+@media (max-width: 1024px){
     video{
         display: none;
        
@@ -311,5 +313,6 @@ flex-direction: column;
 }
 .preguntas{
     width: 100%;
+    
 }
 }
