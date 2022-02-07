@@ -262,3 +262,23 @@ video{
 .btn-close{
     color: aliceblue;
 }
+
+@media (max-width: 800px){
+    .carousel{
+        
+        flex-direction: column;
+        width: 90%;
+        
+
+    }
+.inicio{
+    width: 95%;
+    margin-left: 10%;
+    
+}
+.carousel-item{
+    margin-bottom: 10%;
+}
+
+
+}
