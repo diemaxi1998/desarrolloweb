@@ -121,6 +121,7 @@ footer{
 
 .clientes{
     font-size: 250%;
+    width: 80%;
 }
 
 #imagenes{
@@ -263,9 +264,8 @@ video{
     color: aliceblue;
 }
 
-@media (max-width: 800px){
+@media (max-width: 1024px){
     .carousel{
-        
         flex-direction: column;
         width: 90%;
         
@@ -280,5 +280,26 @@ video{
     margin-bottom: 10%;
 }
 
+.nosotrosMapa{
+flex-direction: column;
+}
+.col-7,.col-5{
+    width: 100%;
+    width: 100%;
+}
+.col-5{
+    margin-left: 5%;
+    margin-bottom: 25%;
+}
 
+.col-6{
+    width: 90%;
+}
+
+.accordion-button{
+    width: 130%;
+}
+.preguntas{
+    width: 100%;
+}
 }
