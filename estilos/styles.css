@@ -254,6 +254,16 @@ video{
 
 }
 
+.segundasImagenes{
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+
+
+/************************MEDIAS*****************************************/
+
+
 @media (max-width: 900px){
     video{
         display: none;
