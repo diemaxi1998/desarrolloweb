@@ -25,7 +25,7 @@ body{
 .navbar-brand{
     font-size: 300%;
     font-family: 'Dancing Script', cursive;
-    margin-right: 35%;
+    margin-right: 30%;
     margin-left: 3%;
 
 }
@@ -34,6 +34,19 @@ body{
 }
 
 
+$colores:(
+    whatsapp: rgb(21, 248, 40),
+    facebook: rgb(25, 21, 248),
+    twitter: rgb(1, 210, 247),
+    instagram: rgb(143, 52, 143),
+);
+
+@each $colores, $color in $colores{
+    .fa-#{$colores}{
+        color: $color;
+    }
+    
+}
 
 
 
@@ -55,7 +68,34 @@ body{
     width: 62%;
 }
 
+.card-text{
+    color:rgb(228, 78, 115);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 3%;
+}
+.card-title{
+    @extend .card-text;
+    border-bottom: solid rgb(228, 78, 115) 1px;
+    
+}
 
+.card{
+    background-color: black;
+    margin-left: 5%;
+    margin-top:  3%;
+    margin-bottom: 10%;
+}
+
+footer{
+    background-color: black;
+}
+.linkIg{
+    color: rgb(141, 12, 66);
+}
+
+a{
+    text-decoration: none;
+}
 
 
 
@@ -68,4 +108,235 @@ body{
 /*************************CLIENTES*****************************/
 .parrafito1, .clientes{
     @include titulos
+}
+
+.clientes{
+    font-size: 250%;
+    width: 80%;
+}
+
+
+#imagenes{
+    margin-bottom: 3%;
+}
+
+.segundasImagenes{
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+/*********************NOSOTROS*************************/
+
+
+.fondoNosotros{
+    background-image: url(../Fondos/fondos-negros-gratistodo.com-7.jpg)
+}
+
+.info{
+    color: aliceblue;
+    margin-bottom: 20%;
+}
+
+h4{
+    font-size: 176%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 4%;
+}
+
+.ubicacion{
+    color: white;
+    margin-top: 5%;
+    font-size: 176%;
+
+}
+
+.fondoNosotros{
+    background-image: url(../Fondos/fondos-negros-gratistodo.com-7.jpg)
+}
+
+.info{
+    color: aliceblue;
+    margin-bottom: 20%;
+}
+
+h4{
+    font-size: 176%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 4%;
+}
+
+.ubicacion{
+    color: white;
+    margin-top: 5%;
+    font-size: 176%;
+
+}
+
+.quienes{
+    color: azure;
+    font-size: 250%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.mapita{
+    width: 90%;
+    height: 70%;
+}
+.preguntas{
+    margin-top: 3%;
+}
+
+
+
+/************TURNOS****************/
+
+
+label{
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+}
+.form-label{
+    font-size: 120%;
+    
+
+}
+
+.p-3{
+    font-size: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.animate__fadeInLeft{
+    color: aliceblue;
+    margin-left: 5%;
+}
+
+.turnos{
+    margin-bottom: 3%;
+    margin-top: 3%;
+    font-size: 180%;
+}
+
+.form-control{
+    margin-bottom: 5%;
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgb(212, 207, 207);
+    color: black;
+}
+
+.enviar{
+    margin-bottom: 10%;
+    font-family:'Courier New', Courier, monospace;
+    width: 100%;
+}
+
+.faqs{
+    margin-bottom: 10%
+}
+video{
+    margin-left: 25%;
+    margin-bottom: 10%;
+    height: 80vh;
+
+}
+
+.pedirTurno{
+    color: blanchedalmond;
+    margin: 1% 0 3% 9%;
+    font-size: 120%;
+}
+
+.contacto{
+    color: rgb(160, 7, 70);
+}
+
+
+.modal-body,
+.modal-header{
+    background-color: black;
+}
+
+button{
+    width: 100%;
+}
+
+.btn-close{
+    color: aliceblue;
+}
+
+
+.preguntas{
+    margin-left: 2%;
+}
+
+/*************MEDIAS*******************/
+
+@media (max-width: 1024px){
+    .carousel{
+        flex-direction: column;
+        width: 90%;
+}
+
+.inicio{
+    width: 95%;
+    margin-left: 10%;
+    
+}
+.carousel-item{
+    margin-bottom: 10%;
+}
+
+.nosotrosMapa{
+flex-direction: column;
+}
+.col-7,.col-5{
+    width: 100%;
+    width: 100%;
+}
+.col-5{
+    margin-left: 5%;
+    margin-bottom: 25%;
+}
+
+.col-6{
+    width: 90%;
+}
+
+.accordion-button{
+    width: 100%;
+}
+.preguntas{
+    width: 100%;
+    
+}
+  video{
+        display: none;
+}
+}
+
+@media (max-width: 995px){
+    .icono{
+        display: none;
+    }
+}
+
+
+@media (max-width: 480px){
+    .card{
+        width: 80%;
+        margin-left: 16%;
+    }
+    .significados{
+        margin-left: 20%;
+        width: 100%;
+    }
+}
+
+@media (mix-width: 481px) and (max-width: 1023px ){
+    .container{
+        margin-left: 10%;
+    }
+        
 }

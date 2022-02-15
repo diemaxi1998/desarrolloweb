@@ -25,11 +25,23 @@ body {
 .navbar-brand {
   font-size: 300%;
   font-family: 'Dancing Script', cursive;
-  margin-right: 35%;
+  margin-right: 30%;
   margin-left: 3%; }
 
 .nav-item {
   font-size: 110%; }
+
+.fa-whatsapp {
+  color: #15f828; }
+
+.fa-facebook {
+  color: #1915f8; }
+
+.fa-twitter {
+  color: #01d2f7; }
+
+.fa-instagram {
+  color: #8f348f; }
 
 .descripcion {
   margin-left: 8%;
@@ -47,6 +59,29 @@ body {
   padding-top: 3%;
   width: 62%; }
 
+.card-text, .card-title {
+  color: #e44e73;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 3%; }
+
+.card-title {
+  border-bottom: solid #e44e73 1px; }
+
+.card {
+  background-color: black;
+  margin-left: 5%;
+  margin-top: 3%;
+  margin-bottom: 10%; }
+
+footer {
+  background-color: black; }
+
+.linkIg {
+  color: #8d0c42; }
+
+a {
+  text-decoration: none; }
+
 /*************************CLIENTES*****************************/
 .parrafito1, .clientes {
   margin-left: 8%;
@@ -54,3 +89,166 @@ body {
   margin-bottom: 3%;
   font-family: 'Supermercado One', cursive;
   color: antiquewhite; }
+
+.clientes {
+  font-size: 250%;
+  width: 80%; }
+
+#imagenes {
+  margin-bottom: 3%; }
+
+.segundasImagenes {
+  margin-top: 1%;
+  margin-bottom: 3%; }
+
+/*********************NOSOTROS*************************/
+.fondoNosotros {
+  background-image: url(../Fondos/fondos-negros-gratistodo.com-7.jpg); }
+
+.info {
+  color: aliceblue;
+  margin-bottom: 20%; }
+
+h4 {
+  font-size: 176%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 4%; }
+
+.ubicacion {
+  color: white;
+  margin-top: 5%;
+  font-size: 176%; }
+
+.fondoNosotros {
+  background-image: url(../Fondos/fondos-negros-gratistodo.com-7.jpg); }
+
+.info {
+  color: aliceblue;
+  margin-bottom: 20%; }
+
+h4 {
+  font-size: 176%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 4%; }
+
+.ubicacion {
+  color: white;
+  margin-top: 5%;
+  font-size: 176%; }
+
+.quienes {
+  color: azure;
+  font-size: 250%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.mapita {
+  width: 90%;
+  height: 70%; }
+
+.preguntas {
+  margin-top: 3%; }
+
+/************TURNOS****************/
+label {
+  color: white;
+  font-family: 'Courier New', Courier, monospace; }
+
+.form-label {
+  font-size: 120%; }
+
+.p-3 {
+  font-size: 80%;
+  display: flex;
+  justify-content: flex-end; }
+
+.animate__fadeInLeft {
+  color: aliceblue;
+  margin-left: 5%; }
+
+.turnos {
+  margin-bottom: 3%;
+  margin-top: 3%;
+  font-size: 180%; }
+
+.form-control {
+  margin-bottom: 5%;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #d4cfcf;
+  color: black; }
+
+.enviar {
+  margin-bottom: 10%;
+  font-family: 'Courier New', Courier, monospace;
+  width: 100%; }
+
+.faqs {
+  margin-bottom: 10%; }
+
+video {
+  margin-left: 25%;
+  margin-bottom: 10%;
+  height: 80vh; }
+
+.pedirTurno {
+  color: blanchedalmond;
+  margin: 1% 0 3% 9%;
+  font-size: 120%; }
+
+.contacto {
+  color: #a00746; }
+
+.modal-body,
+.modal-header {
+  background-color: black; }
+
+button {
+  width: 100%; }
+
+.btn-close {
+  color: aliceblue; }
+
+.preguntas {
+  margin-left: 2%; }
+
+/*************MEDIAS*******************/
+@media (max-width: 1024px) {
+  .carousel {
+    flex-direction: column;
+    width: 90%; }
+  .inicio {
+    width: 95%;
+    margin-left: 10%; }
+  .carousel-item {
+    margin-bottom: 10%; }
+  .nosotrosMapa {
+    flex-direction: column; }
+  .col-7, .col-5 {
+    width: 100%;
+    width: 100%; }
+  .col-5 {
+    margin-left: 5%;
+    margin-bottom: 25%; }
+  .col-6 {
+    width: 90%; }
+  .accordion-button {
+    width: 100%; }
+  .preguntas {
+    width: 100%; }
+  video {
+    display: none; } }
+
+@media (max-width: 995px) {
+  .icono {
+    display: none; } }
+
+@media (max-width: 480px) {
+  .card {
+    width: 80%;
+    margin-left: 16%; }
+  .significados {
+    margin-left: 20%;
+    width: 100%; } }
+
+@media (mix-width: 481px) and (max-width: 1023px) {
+  .container {
+    margin-left: 10%; } }
