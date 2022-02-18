@@ -1,0 +1,30 @@
+/*******************INDEX********************/
+<title>Tatuajes Rosales</title>
+<meta name="description" content="Tatuadores en Gonzalez Catan. Dibujamos tu diseño y te brindamos el mejor presupuesto. No dudes en consultarnos."/>
+<meta name="keywords" content="Tatuajes, Piel, Dibujos, Arte, Tatuar, Gonzalez Catan"/>
+
+
+/*******************CLIENTES********************/
+<title>Clientes - Tatuajes Rosales</title>
+<meta name="keywords" content="Tatuajes, Clientes, Fotos de tatuajes, Dibujos"/>
+<meta name="description" content="Nuestros trabajos realizados. Para tu confianza subimos fotos de nuestros trabajos anteriores. Si te gustan podes contactarnos y solicitanos un turno."/>
+
+
+/*******************PREGUNTAS********************/
+<title>Preguntas Frecuentes - Tatuajes Rosales</title>
+<meta name="keywords" content="Tatuajes, Preguntas frecuentes, Precios de tatuajes, Cuidados"/>
+<meta name="description" content="Preguntas frecuentes. Recomendaciones y cuidados. ¿Que hacer si soy menor de edad?"/>
+
+
+/*******************NOSOTROS********************/
+<title>Nosotros - Tatuajes Rosales</title>
+<meta name="keywords" content="Tatuajes, Tatuadores, Dibujantes, Hermanos,"/>
+<meta name="description" content="Somos dos hermanos apasionados por el dibujo. Disfrutamos nuestro trabajo."/>
+
+/*******************TURNOS********************/
+<title>Turnos - Tatuajes Rosales</title>
+<meta name="keywords" content="Tatuajes, Turnos, Presupuesto, Tatuajes baratos"/>
+<meta name="description" content="Solicitá tu turno o acercate a nuestro local para armar un presupuesto. No brindamos presupuesto por redes sociales o WhatsApp"/>
+
+
+

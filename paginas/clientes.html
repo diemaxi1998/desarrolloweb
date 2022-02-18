@@ -4,10 +4,15 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tatuajes Rosales</title>
+        <title>Clientes - Tatuajes Rosales</title>
         <link rel="stylesheet" href="../bootstrapLocal/css/bootstrap.css">
         <link rel="stylesheet" href="../css/desarrolloweb.css">
         <script src="https://kit.fontawesome.com/0a0073a141.js" crossorigin="anonymous"></script>
+
+
+        <meta name="keywords" content="Tatuajes, Clientes, Fotos de tatuajes, Dibujos"/>
+        <meta name="description" content="Nuestros trabajos realizados. Para tu confianza subimos fotos de nuestros trabajos anteriores. Si te gustan podes contactarnos y solicitanos un turno."/>
+      
 
     </head>
     <body>
@@ -112,37 +117,96 @@
         </html>-->
 
 
-        <div id="imagenes" class="container">
+
+        <div id="imagenes"class="container">
           <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
             <div class="col">
               <div>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 <img src="../imagenesParaGaleria/cruz_para_hombres.jpg" class="img-fluid" alt="cruz">
+              </button>
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    
+                    <div class="modal-header">
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="../imagenesParaGaleria/cruz_para_hombres.jpg" class="d-block w-100" alt="cruz">
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-
+          </div>
             
-
-
-            <div class="col">
-              <div>
-                  <img src="../imagenesParaGaleria/familia.jpg" class="img-fluid" alt="familia">
+          <div class="col">
+            <div>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+              <img src="../imagenesParaGaleria/familia.jpg" class="img-fluid" alt="palabra familia">
+            </button>
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  
+                  <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="../imagenesParaGaleria/familia.jpg" class="d-block w-100" alt="cruz">
+                  </div>
+                </div>
               </div>
             </div>
+          </div>
+        </div>
 
 
 
-            <div class="col">
-              <div>                  
-                <img src="../imagenesParaGaleria/calavera-india.jpg" class="img-fluid" alt="calavera india">
+
+        <div class="col">
+          <div>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+            <img src="../imagenesParaGaleria/calavera-india.jpg" class="img-fluid" alt="calavera india">
+          </button>
+          <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="../imagenesParaGaleria/calavera-india.jpg" class="d-block w-100" alt="calavera india">
+                </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
 
 
-            <div class="col">
-              <div>
-                <img src="../imagenesParaGaleria/figuranuca.jpg" class="img-fluid" alt="figura nuca">
+      <div class="col">
+        <div>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+          <img src="../imagenesParaGaleria/figuranuca.jpg" class="img-fluid" alt="figura en la nuca">
+        </button>
+        <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="../imagenesParaGaleria/figuranuca.jpg" class="d-block w-100" alt="figura en la nuca">
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
 
@@ -274,7 +338,6 @@
           </div>
         </div>
       </div>
-    </div>
  
         
        <p class="pedirTurno">Podés <a class="contacto" href="nosotros.html"> contactarnos </a> para más información o podés <a class="contacto" href="presupuesto.html">solicitarnos un turno</a> , si ya estás decidido/a.  </p>
