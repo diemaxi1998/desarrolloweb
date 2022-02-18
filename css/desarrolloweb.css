@@ -31,16 +31,16 @@ body {
 .nav-item {
   font-size: 110%; }
 
-.fa-whatsapp {
+.fa-whatsapp:hover {
   color: #15f828; }
 
-.fa-facebook {
+.fa-facebook:hover {
   color: #1915f8; }
 
-.fa-twitter {
+.fa-twitter:hover {
   color: #01d2f7; }
 
-.fa-instagram {
+.fa-instagram:hover {
   color: #8f348f; }
 
 .descripcion {
@@ -191,7 +191,7 @@ video {
 
 .pedirTurno {
   color: blanchedalmond;
-  margin: 5% 0 3% 9%;
+  margin: 7% 0 3% 9%;
   font-size: 120%; }
 
 .contacto {
