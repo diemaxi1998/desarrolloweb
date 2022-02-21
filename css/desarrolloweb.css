@@ -101,6 +101,11 @@ a {
   margin-top: 1%;
   margin-bottom: 3%; }
 
+  .img-fluid{
+    height: 30vh;
+  }
+
+
 /*********************NOSOTROS*************************/
 .fondoNosotros {
   background-image: url(../Fondos/fondos-negros-gratistodo.com-7.jpg); }
