@@ -252,6 +252,9 @@ button {
     width: 100%; }
   video {
     display: none; } 
+  .accordion{
+    margin-bottom: 20%;
+  }
   }
 
 @media (max-width: 995px) {
