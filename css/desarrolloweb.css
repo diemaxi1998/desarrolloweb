@@ -251,7 +251,7 @@ button {
   video {
     display: none; } 
   .accordion{
-    margin-bottom: 20%;
+    margin-bottom: 30%;
   }
   .img-fluid{
     height: 20vh;
@@ -267,7 +267,7 @@ button {
     width: 80%;
     margin-left: 10%; }
   .significados {
-    margin-left: 15%
+    margin-left: 15%;
     width: 70%; 
   }
   .row-cols-2{
@@ -275,7 +275,7 @@ button {
     padding-left: 3%;
   }
   
-  }
+}
 
 @media (mix-width: 481px) and (max-width: 1023px) {
   .container {
