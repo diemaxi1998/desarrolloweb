@@ -251,7 +251,7 @@ button {
   video {
     display: none; } 
   .accordion{
-    margin-bottom: 30%;
+    margin-bottom: 40%;
   }
   .img-fluid{
     height: 20vh;
@@ -286,3 +286,9 @@ button {
       .img-fluid{
         height: 30vh;
       }}
+
+
+.dibujosTatuajes{
+  height: 85vh;
+  margin-left: 25%;
+}
